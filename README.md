@@ -1,4 +1,4 @@
-![Tec de Monterrey](images/logotecmty.png)
+
 # Situación problema: Simulación de un sistema de comunicación celular.
 
 ## <span style="color: rgb(26, 99, 169);">¿Qué tengo que hacer?</span>
@@ -12,7 +12,7 @@ En estos archivos deberás desarrollar la implementación de cada una de las cla
 ```
 // =========================================================
 // File: one_header.h
-// Author: Edward Elric - A00123456
+// Author: Edward Elric 
 // Date: 01/01/2021
 // Description: This file implements some functions.
 // =========================================================
