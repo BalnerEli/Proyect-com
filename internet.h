@@ -23,4 +23,26 @@ public:
   double calculateNetworkCost(double);
 };
 
+InternetOperator::InternetOperator(int i, double t, double mC, double nC, int dR, OperatorType ty)
+	: Operator(i, t, mC, nC, dR, ty, INTERNETOPERATOR) {
+
+}
+
+InternetOperator::InternetOperator(const InternetOperator& other)
+	: Operator(other.id, other.talkingCharge, other.networkCharge, other.discountRate, other.type, other.totalSpentTalkingTime, other.totalMessageSent, other.totalInternetUsage) {
+
+}
+
+void InternetOperator::calculateTalkingCost(int minute, int age) {
+
+}
+
+double InternetOperator::double calculateMessageCost(int quantity, int thisOpId, int otherOpId) {
+
+}
+
+void InternetOperator::calculateNetworkCost(double amount) {
+
+}
+
 #endif
