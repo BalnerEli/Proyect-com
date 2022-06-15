@@ -20,4 +20,26 @@ public:
   double calculateNetworkCost(double);
 };
 
+VoxOperator::VoxOperator(int i, double t, double mC, double nC, int dR, OperatorType ty)
+	: Operator(i, t, mC, nC, dR, ty, VOXOPERATOR) {
+
+}
+
+VoxOperator::VoxOperator(const VoxOperator& other)
+	: Operator(other.id, other.talkingCharge, other.networkCharge, other.discountRate, other.type, other.totalSpentTalkingTime, other.totalMessageSent, other.totalInternetUsage) {
+
+}
+
+void VoxOperator::calculateTalkingCost(int minute, int age) {
+
+}
+
+double VoxOperator::double calculateMessageCost(int quantity, int thisOpId, int otherOpId) {
+
+}
+
+void VoxOperator::calculateNetworkCost(double amount) {
+
+}
+
 #endif
